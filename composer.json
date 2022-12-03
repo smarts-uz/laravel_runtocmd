@@ -1,0 +1,23 @@
+{
+  "name": "Script-CMD",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ssaMann",
+      "email": "saman9779dar@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "minimum-stability": "stable"
+}
