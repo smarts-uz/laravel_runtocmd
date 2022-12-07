@@ -1,9 +1,9 @@
 {
-  "name": "Script-CMD",
+  "name": "laravelRunToCmd",
   "license": "MIT",
   "authors": [
     {
-      "name": "ssaMann",
+      "name": "Mirkhakimov1",
       "email": "saman9779dar@gmail.com"
     }
   ],

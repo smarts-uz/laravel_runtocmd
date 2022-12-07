@@ -3,12 +3,9 @@
 /**
  * Author:  Mirkhikomov1*/
 
-namespace Teamprodev\Cmd\Http\Controllers;
-
-use App\Http\Controllers\Controller;
 
 
-namespace App\Services;
+namespace App\Service;
 
 class CmdService
 {
@@ -44,8 +41,8 @@ class CmdService
             file_put_contents(realpath('./cmd') . '/' . $item . '.cmd', $final);
         }
     }
-}
 
+}
 
 
 
