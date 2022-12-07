@@ -7,9 +7,18 @@
 
 namespace App\Service;
 
+
+
+
 class CmdService
+
 {
-    public function scanRun()
+    public function __construct()
+    {
+        $this->getCmd();
+    }
+    
+    public function scanRun(): bool|array
     {
         $array = scandir(realpath('./.run'));
         foreach ($array as $key => $value) {
@@ -18,7 +27,7 @@ class CmdService
         return $array;
     }
 
-    public function scanCmd()
+    public function scanCmd(): bool|array
     {
 
         $array = scandir(realpath('./cmd'));
@@ -40,7 +49,10 @@ class CmdService
             $final = str_replace("list", $argument[0], $sample);
             file_put_contents(realpath('./cmd') . '/' . $item . '.cmd', $final);
         }
+        $this->getCmd();
+
     }
+
 
 }
 
