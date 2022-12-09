@@ -1,4 +1,4 @@
-#laravel-Run-To-Cmd 
+# laravel-Run-To-Cmd 
 
 This package can turn your PHPStorm Run Configurations to .cmd scrips in order to let you easily run your configurations by clicking jbust one file
 
@@ -10,7 +10,7 @@ This package can turn your PHPStorm Run Configurations to .cmd scrips in order t
 - Cmd
 
 
-#Installation
+# Installation
 
 requires [php](https://www.php.net/) v7.4+ run.
 
