@@ -18,6 +18,7 @@ class CmdService
         $this->getCmd();
     }
 
+//
     public function scanRun(): bool|array
     {
         $array = scandir(realpath('./.run'));
