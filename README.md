@@ -17,5 +17,5 @@ requires [php](https://www.php.net/) v7.4+ run.
 For production environments…
 
 ```sh
-composer require teamprodev/laravel-payment
+composer require teamprodev/laravel_runtocmd
 ```
