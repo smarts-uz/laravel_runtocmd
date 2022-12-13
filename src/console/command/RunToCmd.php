@@ -8,8 +8,9 @@
  * https://github.com/asror-z
  *
  */
+namespace RunToCmd\Console\Commands;
 
-namespace app\console\command;
+
 use App\Service\CmdService;
 use Illuminate\Console\Command;
 

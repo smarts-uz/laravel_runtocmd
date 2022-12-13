@@ -11,12 +11,13 @@
   "extra": {
     "laravel": {
       "providers": [
-
+        "RunToCmd\\Providers\\RunServiceProvider"
       ]
     }
   },
   "autoload": {
     "psr-4": {
+      "RunToCmd\\": "src/"
     }
   },
   "minimum-stability": "stable"
