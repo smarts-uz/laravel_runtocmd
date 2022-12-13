@@ -13,10 +13,6 @@ namespace App\Service;
 class CmdService
 
 {
-    public function __construct()
-    {
-        $this->getCmd();
-    }
 
 //
     public function scanRun(): bool|array
