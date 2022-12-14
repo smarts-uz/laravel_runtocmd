@@ -4,7 +4,7 @@
  * Author:  Mirkhikomov1*/
 
 
-namespace Teamprodev\RunToCmd\Service;
+namespace RunToCmd\Services;
 
 
 

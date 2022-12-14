@@ -1,6 +1,6 @@
 <?php
 
-namespace Teamprodev\RunToCmd\Providers;
+namespace RunToCmd\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
