@@ -18,7 +18,7 @@ class RunServiceProvider extends ServiceProvider
             __DIR__ . '/../console/command/' => base_path('app/Console/Commands'),
         ]);
         $this->publishes([
-            __DIR__ . '/../service/' => base_path('app/Services'),
+            __DIR__ . '/../Services/' => base_path('app/Services'),
         ]);
     }
 
