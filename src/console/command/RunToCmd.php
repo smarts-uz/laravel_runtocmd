@@ -8,7 +8,7 @@
  * https://github.com/asror-z
  *
  */
-namespace RunToCmd\Console\Commands;
+namespace Teamprodev\RunToCmd\console\command;
 
 
 use App\Service\CmdService;

@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "RunToCmd\\": "src/"
+      "Teamprodev\\RunToCmd\\": "src/"
     }
   },
   "minimum-stability": "stable"
