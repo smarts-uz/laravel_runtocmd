@@ -3,6 +3,7 @@
 namespace RunToCmd\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use RunToCmd\Console\Commands\RunToCmdCommand;
 
 class RunServiceProvider extends ServiceProvider
 {
@@ -15,12 +16,16 @@ class RunServiceProvider extends ServiceProvider
     {
 
         $this->publishes([
-            __DIR__ . '/../console/command/' => base_path('app/Console/Commands'),
+            __DIR__ . '/../Console/Commands/' => base_path('app/Console/Commands'),
         ]);
         $this->publishes([
             __DIR__ . '/../Services/' => base_path('app/Services'),
         ]);
+        $this->Commands([
+            RunToCmdCommand::class
+        ]);
     }
+
 
     /**
      * Bootstrap services.

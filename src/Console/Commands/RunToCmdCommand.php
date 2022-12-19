@@ -3,36 +3,36 @@
 /**
  *
  *
- * Author:  Asror Zakirov
- * https://www.linkedin.com/in/asror-zakirov
- * https://github.com/asror-z
+ * Author:  Samandar Mirkhakimov
+ *
+ *https://t.me/mirkhakimov1
+ * https://github.com/Samandarrrr
  *
  */
-namespace RunToCmd\console\command;
-
+namespace RunToCmd\Console\Commands;
 
 use RunToCmd\Services\CmdService;
 use Illuminate\Console\Command;
 
 
-class RunToCmd extends Command
+class RunToCmdCommand extends Command
 {
     /**
-     * The name and signature of the console command.
+     * The name and signature of the Console Commands.
      *
      * @var string
      */
-    protected $signature = 'command:runCmd';
+    protected $signature = 'Commands:runCmd';
 
     /**
-     * The console command description.
+     * The Console Commands description.
      *
      * @var string
      */
     protected $description = 'Command description';
 
     /**
-     * Execute the console command.
+     * Execute the Console Commands.
      *
      * @return void
      */
