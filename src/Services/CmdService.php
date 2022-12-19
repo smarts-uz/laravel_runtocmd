@@ -21,7 +21,7 @@ class CmdService
     public function scanCmd(): bool|array
     {
         if(!realpath('./cmd')){
-            mkdir(realpath('./cmd'));
+            mkdir(realpath('.') .'/cmd');
         }
         $array = scandir(realpath('./cmd'));
         foreach ($array as $key => $value) {
@@ -42,7 +42,7 @@ class CmdService
             $final = str_replace("list", $argument[0], $sample);
             file_put_contents(realpath('./cmd') . '/' . $item . '.cmd', $final);
         }
-        $this->getCmd();
+
 
     }
 
