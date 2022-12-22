@@ -38,7 +38,6 @@ class CmdService
             $file = file_get_contents(realpath('./.run') . '/' . $item . '.run.xml');
             preg_match('#(?<=scriptParameters=")([a-z-_/\.0-9 :.,-=]+(?=">))#', $file, $argument);
             $sample ="chcp 65001\r\n\r\ncd /d ..\\\r\n\r\nphp artisan list";
-            dd($argument);
             $final = str_replace("list", $argument[0], $sample);
             file_put_contents(realpath('./cmd') . '/' . $item . '.cmd', $final);
         }
