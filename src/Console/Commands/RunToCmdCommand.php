@@ -22,7 +22,7 @@ class RunToCmdCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'Commands:runCmd';
+    protected $signature = 'command:runCmd';
 
     /**
      * The Console Commands description.
